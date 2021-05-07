@@ -1,5 +1,5 @@
 [Algo]
-Thời gian: 60 -> 90 minutes.
+Thời gian: 90 minutes.
 `Optimize thuật toán nhất có thể`
 <br/>1. Tìm dãy con tăng liên tiếp dài nhất của 1 mảng cho trước. Ví dụ: [4, 3, 3, 5, 7, 8, 2] => [3, 5, 7, 8]
 <br/>
