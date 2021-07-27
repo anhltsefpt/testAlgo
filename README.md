@@ -19,9 +19,9 @@ Hoặc hihihico = 3(hi)co
 <br>Input: 1 dãy S đã được mã hóa
 <br>Output: trả về dãy ở trạng thái chưa được mã hóa.
 <br>-Rằng buộc:
-<br>•Độ dài của S nằm trong khoảng 1 -> 100
-<br>•Dãy mã hóa chỉ bao gồm các số từ '0' -> '9', ngoặc '(', ')', và các kí tự thường (lower-case alphabet)
-<br>•Độ dài của chuỗi trả về từ 1 -> 1000
+<br>• Độ dài của S nằm trong khoảng 1 -> 100
+<br>• Dãy mã hóa chỉ bao gồm các số từ '0' -> '9', ngoặc '(', ')', và các kí tự thường (lower-case alphabet)
+<br>• Độ dài của chuỗi trả về từ 1 -> 1000
 
  <br>Example:
  <br>Input: 2(3(hi)co)
