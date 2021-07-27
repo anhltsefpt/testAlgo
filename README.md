@@ -9,6 +9,21 @@ Thời gian: 90 minutes.
 <br/>
 In ra: [1,2 ,3, 4, 5, 6, 7, 8, 9, 10]
 <br/>
-<br/>3. Tìm và in ra phần tử, vị trí lớn thứ 2 của 1 mảng [1, 5, 2, 3, 4, 0] => print 4, position: 4.(nếu có nhiều phần tử, in ra phần tử có vị trí nhỏ nhất).
-<br/>
+<br>
+3. Có nhiều cách để mã hóa 1 chuỗi, trong đó có 1 cách như sau:
+<br>Khi dãy con S xuất hiện K lần trong một chuỗi, chúng ta dùng K(S) để hiển thị giá trị.
+<br>
+<br>Ví dụ dãy hihihicohihihico = 2(3(hi)co)
+Hoặc hihihico = 3(hi)co
+<br></br>
+<br>Input: 1 dãy S đã được mã hóa
+<br>Output: trả về dãy ở trạng thái chưa được mã hóa.
+<br>-Rằng buộc:
+<br>•Độ dài của S nằm trong khoảng 1 -> 100
+<br>•Dãy mã hóa chỉ bao gồm các số từ '0' -> '9', ngoặc '(', ')', và các kí tự thường (lower-case alphabet)
+<br>•Độ dài của chuỗi trả về từ 1 -> 1000
+
+ <br>Example:
+ <br>Input: 2(3(hi)co)
+ <br>Output: hihihicohihihico
  
