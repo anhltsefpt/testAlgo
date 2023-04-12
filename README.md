@@ -15,3 +15,9 @@ In ra: [1,2 ,3, 4, 5, 6, 7, 8, 9, 10]
 <br/>Input: head = [1,2,3,4,5]
 <br/>Output: [5,4,3,2,1]
 
+<br/>4. Khai báo 1 interface Vehicle chứa 3 functions sau: 
+- drive()
+- run()
+- fuelFill()
+
+<br>Tạo 2 class: Bicycle / Car implement interface trên.
