@@ -1,23 +1,7 @@
 [Algo]
-Thời gian: 90 minutes.
-`Optimize thuật toán nhất có thể`
-
-<br/>1. Tìm dãy con tăng liên tiếp dài nhất của 1 mảng cho trước. Ví dụ: [4, 3, 3, 5, 7, 8, 2] => [3, 5, 7, 8]
-<br/>
-<br/>2. Cho 2 dãy con tăng liên tiếp, gộp 2 dãy thành 1 dãy con tăng liên tiếp O(N)<br/>
-[1, 3, 5, 6, 9],<br/>
-[2, 4, 6, 8, 10]
-<br/>
-In ra: [1,2 ,3, 4, 5, 6, 7, 8, 9, 10]
-<br/>
-<br>
-<br/>3. Cho `head` của 1 single linked list, hãy đảo ngược lại single linked list đó và trả kết quả. 
-<br/>Input: head = [1,2,3,4,5]
-<br/>Output: [5,4,3,2,1]
-
-<br/>4. Khai báo 1 interface Vehicle chứa 3 functions sau: 
-- drive()
-- run()
-- fuelFill()
-
-<br>Tạo 2 class: Bicycle / Car implement interface trên.
+Thời gian: 60 minutes. Làm từ trên xuống dưới.
+  1. Phân tích 1 số nguyên dương từ hệ thập phân ra hệ nhị phân
+  <br>Ví dụ: 5, 9, 10, 4, 3 => in ra Value: 3, Pos: 4. Nếu có nhiều vị trí, in ra vị trí đầu tiên
+  2. Tìm dãy số tăng liên tiếp dài nhất. In ra độ dài và vị trí xuất phát. Nếu có nhiều dãy con thì in ra dãy con có vị trí xuất phát nhỏ nhất.
+  <br>Ví dụ: 2, 6, 4, 3, 5, 7, 8 => in ra Length: 4, Pos: 3. (vì dãy 3, 5, 7, 8 là liên tiếp và dài nhất)
+  3. Đếm số lượng số 0 tận cùng của n! (n < 10^6). Ví dụ f(5!) = 1 (120 => 1)
